@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 
 import * as React from "react";
-import FileUploadDrawer from "@/components/audio-file-upload/file-upload-drawer";
+import FileUploadDrawer from "@/components/drawers/audio-file-upload/file-upload-drawer";
 
 export default function Home() {
   const [isOpen, setIsOpen] = React.useState(false);

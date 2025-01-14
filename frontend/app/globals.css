@@ -261,14 +261,29 @@ p {
   text-decoration-skip-ink: none;
 }
 
+.meeting-info-child-accordion-heading {
+  font-family: PingFang SC;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
 .meeting-info-accordion-trigger:hover {
   text-decoration: none !important;
   text-decoration-line: none !important;
 }
 
-/* .meeting-info-accordion-trigger svg {
+.meeting-info-accordion-trigger[data-state="open"] .accordion-icon {
+  transform: rotate(90deg);
+}
+
+.meeting-info-accordion-trigger .lucide {
   display: none;
-} */
+}
 
 .meeting-info-accordion-content {
   font-family: PingFang SC;
@@ -313,6 +328,35 @@ p {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+.meeting-info-child-accordion-list {
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.drawer-title {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.40799999237060547px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
 }
 
 @layer utilities {

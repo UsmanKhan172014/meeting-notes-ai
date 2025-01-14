@@ -98,7 +98,8 @@ const config: Config = {
     			'6.5': '1.375rem'
     		},
     		boxShadow: {
-    			'cards-custom-shadow': '0px 18px 12px 0px rgba(0, 0, 0, 0.05)'
+    			'cards-custom-shadow': '0px 18px 12px 0px rgba(0, 0, 0, 0.05)',
+				'rounded-buttons-shadow' : '0px 4px 12px 0px #2D31441F'
     		},
     		borderColor: {
     			'select-border': '#5C657E'
